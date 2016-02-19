@@ -1,0 +1,64 @@
+html {
+    background-color: #eee;
+}
+
+/* Your CSS here */
+
+body {
+  font-family: "Trebuchet MS";
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+
+.title{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.label-container{
+  width:37%;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+
+.correct{
+  color:blue;
+  margin-top: :10px;
+  margin-bottom: 10px;
+}
+
+.incorrect{
+  color:red;
+  margin-top: :10px;
+  margin-bottom: 10px;
+}
+
+.incorrect-english{
+  text-decoration: line-through;
+}
+
+.ui-icon{
+  zoom: 1.0;
+}
+
+.icon{
+  margin-top: :10px;
+  margin-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom:6px;
+}
+
+
+.spanish-translate{
+  font-weight:bold;
+}
+
+.grey{
+  color:grey;
+}
+
+.first-row{
+  margin-bottom: 35px;
+}

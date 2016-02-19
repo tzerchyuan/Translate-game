@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+   COLLABORATORS: Rosemond Dorleans
+
+   works in chrome and firefox only
+
+  -->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ready, Set, Translate !</title>
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="translate_game.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    <div class = "title"><span class = "grey">Translate from </span>Spanish <span class = "grey">to</span> English</div>
+    <div class = "label-container">
+
+      <div class = "column-left">
+        <span id = "langfrom" class = "grey"></span>
+        <div  id = "inputword" class = "first-row spanish-translate"></div>
+        <div class = "column-left-content"></div>
+        <div class = "static">
+          <div class = "correct correct-spanish">calabaza</div>
+          <div class = "incorrect incorrect-spanish"> postmodernidad </div>
+        </div>
+      </div>
+
+      <div class = "column-center">
+        <span id = "langto" class = "grey"></span>
+        <div class = "first-row">
+          <input id = "inputAnswer" type = "text">
+        </div>
+        <div class = "column-center-content"></div>
+        <div class = "static">
+          <div class = "correct correct-english">pumpkin</div>
+          <div class = "incorrect incorrect-english">phone</div>
+        </div>
+      </div>
+
+      <div class = "column-right">
+        <span class = "grey"> Answer </span>
+        <div class  = "first-row">
+          <input type = "button" value = "See Answer" class = "answer-button">
+        </div>
+        <div class = "column-right-content"></div>
+        <div class = "static">
+          <div class = "icon"><span class="ui-icon ui-icon-check"></span></div>
+          <div class = "incorrect answer">postmodernism</div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="dicts.json"></script>
+    <script src="translate_game.js"></script>
+  </body>
+</html>
